@@ -40,4 +40,4 @@ app.include_router(vote.router)
 
 @app.get("/")
 async def root():
-    return {"message": "Hello World"}
+    return {"message": "Hello World to Ubuntu 20.04 LTS"}
